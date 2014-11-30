@@ -2,3 +2,5 @@ markdown: redcarpet
 sass:
     sass_dir: _sass
 port: 4444
+
+exclude: ["CNAME"]

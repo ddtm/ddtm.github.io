@@ -72,6 +72,8 @@ Here's how one may get a segmentation tree via
 No wheels were reinvented in the making of this project. 
 Pure [Thrust](http://thrust.github.io/) (well, almost).
 
+Accepted for a poster presentation at __GTC'12__.
+
 You can find the code in the 
 [CUDA Toolkit bundle](http://docs.nvidia.com/cuda/cuda-samples/index.html#cuda-segmentation-tree-thrust-library).
 {% endcapture %}
