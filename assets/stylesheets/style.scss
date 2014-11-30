@@ -1,0 +1,27 @@
+---
+---
+
+// import bootstrap
+@import "bootstrap";
+
+// define a colour based on a bootstrap colour
+$my-gray: $gray;
+
+// remainder of sass goes here
+p {
+    color: my-gray;
+}
+
+.reduce-margin { 
+    margin-top:-44px; 
+}
+
+div.moar-btns a {
+    @extend .btn;
+    @extend .btn-sm;
+    @extend .btn-success;
+}
+
+body {
+    margin-top: 20px;
+}

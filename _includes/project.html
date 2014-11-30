@@ -1,0 +1,30 @@
+<div class="media">
+  <a class="media-left" href="#">
+    <img src="{{ project_img_path }}" width=144px height=144px />
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">{{ project_title }}</h4>
+    <p>
+      <a class="btn btn-sm btn-success" href="{{ project_pdf }}">
+      <if class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></span></a>
+      {% if project_arxiv.size > 0 %}
+      <a class="btn btn-sm btn-success" href="{{ project_arxiv }}">arXiv</a>
+      {% endif %}
+      {% if project_moar_btns.size > 0 %}
+        {% assign btns = project_moar_btns | strip_newlines | split: "," %}
+        {% for btn in btns %}
+          {% assign btn_components = btn | split: "|" %}
+        <a class="btn btn-sm btn-success" href="{{ btn_components[1] }}">
+        {{ btn_components[0] }}
+        </a>
+        {% endfor %}
+      {% endif %}
+    </p>
+    <p>{{ project_desc | markdownify }}</p>
+  </div>
+</div>
+{% assign project_img_path = "" %}
+{% assign project_title = "" %}
+{% assign project_pdf = "#" %}
+{% assign project_arxiv = "#" %}
+{% assign project_moar_btns = "" %}
