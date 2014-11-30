@@ -1,1 +1,6 @@
-Hello World
+---
+layout: default
+---
+
+{% capture index %}{% include index.md %}{% endcapture %}
+{{ index | markdownify }}
