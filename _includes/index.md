@@ -9,8 +9,9 @@ You can find my working place at the 6th floor of the
 [Hypercube](http://community.sk.ru/innograd/hypercube/).
 
 If you really want to, you can access my typed [curriculum vitae](./media/cv2.pdf), 
-although I tend to update my <a href="http://linkedin.com/in/yganin/">LinkedIn</a> 
-<a href="http://linkedin.com/in/yganin/"><i class="fa fa-linkedin-square fa-lg"></i></a> more frequently. 
+although I tend to update the <a href="http://linkedin.com/in/yganin/">LinkedIn</a> 
+<a href="http://linkedin.com/in/yganin/"><i class="fa fa-linkedin-square fa-lg"></i></a>
+profile more frequently. 
 
 Here is how you would contact me:
 <a href="mailto:ganin@skoltech.ru"><i class="fa fa-at fa-lg"></i></a>
