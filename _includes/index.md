@@ -41,7 +41,7 @@ $ N^4 $-Fields: Neural Network Nearest Neighbor Fields for Image Transforms
 
 {% capture project_img_path %}./images/n4/teaser.png{% endcapture %}
 {% capture project_arxiv %}http://arxiv.org/abs/1406.6558{% endcapture %}
-{% capture project_pdf %}http://arxiv.org/pdf/1406.6558v1.pdf{% endcapture %}
+{% capture project_pdf %}./media/n4_accv2014.pdf{% endcapture %}
 {% capture project_moar_btns %}
 Project page|http://sites.skoltech.ru/compvision/projects/n4/
 {% endcapture %}
