@@ -1,7 +1,7 @@
 <h3 class="page-header">About</h3>
 
-I am a PhD candidate at [Skoltech](http://www.skoltech.ru), advised by 
-[Victor Lempitsky](http://sites.skoltech.ru/compvision/victor-lempitsky/).
+I am a PhD candidate at [Skoltech](http://www.skoltech.ru/en), advised by 
+[Victor Lempitsky](http://sites.skoltech.ru/compvision/members/vilem/).
 My scientific interests span computer vision and machine learning. Nowadays
 I'm mostly working on __artificial neural networks__.
 
