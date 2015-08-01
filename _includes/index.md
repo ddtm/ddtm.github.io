@@ -23,7 +23,7 @@ Here is how you would contact me:
 {% capture project_title %}
 Unsupervised Domain Adaptation by Backpropagation
 {% endcapture %}
-{% capture project_title %}
+{% capture project_authors %}
 __Yaroslav Ganin__, Victor Lempitsky
 {% endcapture %}
 
@@ -44,10 +44,36 @@ Accepted to __ICML'15__.
 {% endcapture %}
 {% include project.html %}
 
+{% capture project_title %}
+Speeding-up Convolutional Neural Networks Using Fine-tuned CP-Decomposition
+{% endcapture %}
+{% capture project_authors %}
+Vadim Lebedev, __Yaroslav Ganin__, Maksim Rakhuba, Ivan Oseledets, Victor Lempitsky
+{% endcapture %}
+
+{% capture project_img_path %}./images/cp_decomp/teaser.png{% endcapture %}
+{% capture project_pdf %}http://arxiv.org/pdf/1412.6553v3{% endcapture %}
+{% capture project_arxiv %}http://arxiv.org/abs/1412.6553{% endcapture %}
+{% capture project_code %}https://github.com/vadim-v-lebedev/cp-decomposition{% endcapture %}
+{% capture project_moar_btns %}
+project page|http://sites.skoltech.ru/compvision/projects/speeding-up-cnns/
+{% endcapture %}
+{% capture project_desc %}
+We propose a simple two-step approach for speeding up convolution layers within 
+large convolutional neural networks based on tensor decomposition and discriminative fine-
+tuning.
+
+Accepted to __ICRL'15__.
+{% endcapture %}
+{% include project.html %}
+
 ### 2014
 
 {% capture project_title %}
 $ N^4 $-Fields: Neural Network Nearest Neighbor Fields for Image Transforms
+{% endcapture %}
+{% capture project_authors %}
+__Yaroslav Ganin__, Victor Lempitsky
 {% endcapture %}
 
 {% capture project_img_path %}./images/n4/teaser.png{% endcapture %}
@@ -70,6 +96,9 @@ Accepted for an oral presentation at __ACCV'14__ (_4% acceptance rate_).
 
 {% capture project_title %}
 Efficient Segmentation Trees on the GPU
+{% endcapture %}
+{% capture project_authors %}
+__Yaroslav Ganin__
 {% endcapture %}
 
 {% capture project_img_path %}./images/seg_trees/teaser2.png{% endcapture %}
@@ -110,4 +139,5 @@ I was a TA for the following classes:
 
 <h3 class="page-header">Other stuff</h3>
 
-TBD.
+Currently, I am doing my internship at __Google__ (Machine Intelligence team), 
+in Z&uuml;rich, for a period of 4 months, starting June 1st.

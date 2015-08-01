@@ -3,9 +3,9 @@
     <img src="{{ project_img_path }}" width=144px height=144px />
   </a>
   <div class="media-body">
-    <h4 class="media-heading">{{ project_title }}</h4>
+    <h4 class="media-heading">{{ project_title | markdownify }}</h4>
     {% if project_authors.size > 0 %}
-    <h4 class="media-heading"><small>{{ project_title }}</small></h4>
+    <h4 class="media-heading"><small>{{ project_authors | markdownify }}</small></h4>
     {% endif %}
     <p>
       <a class="btn btn-sm btn-success" href="{{ project_pdf }}">
@@ -31,6 +31,8 @@
 </div>
 {% assign project_img_path = "" %}
 {% assign project_title = "" %}
-{% assign project_pdf = "#" %}
-{% assign project_arxiv = "#" %}
+{% assign project_authors = "" %}
+{% assign project_pdf = "" %}
+{% assign project_arxiv = "" %}
+{% assign project_code = "" %}
 {% assign project_moar_btns = "" %}

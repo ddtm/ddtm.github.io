@@ -1,6 +1,6 @@
 markdown: redcarpet
 redcarpet:
-	extensions: ["strikethrough"]
+    extensions: ["strikethrough"]
 sass:
     sass_dir: _sass
 port: 4444
