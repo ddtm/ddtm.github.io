@@ -5,8 +5,8 @@ I am a PhD candidate at [Skoltech](http://www.skoltech.ru/en), advised by
 My scientific interests span computer vision and machine learning. Nowadays
 I'm mostly working on __artificial neural networks__.
 
-You can find my working place at the 6th floor of the 
-[Hypercube](http://community.sk.ru/innograd/hypercube/).
+~~You can find my working place at the 6th floor of the 
+[Hypercube](http://community.sk.ru/innograd/hypercube/).~~
 
 If you really want to, you can access my typed [curriculum vitae](./media/cv2.pdf), 
 although I tend to update the <a href="http://linkedin.com/in/yganin/">LinkedIn</a> 
@@ -18,22 +18,28 @@ Here is how you would contact me:
 
 <h3 class="page-header">Projects</h3>
 
-### 2014
+### 2015
 
 {% capture project_title %}
 Unsupervised Domain Adaptation by Backpropagation
 {% endcapture %}
 
 {% capture project_img_path %}./images/deep_da/teaser.png{% endcapture %}
-{% capture project_arxiv %}http://arxiv.org/abs/1409.7495{% endcapture %}
-{% capture project_pdf %}http://arxiv.org/pdf/1409.7495v1.pdf{% endcapture %}
+{% capture project_pdf %}http://sites.skoltech.ru/compvision/projects/grl/files/paper.pdf{% endcapture %}
+{% capture project_code %}https://github.com/ddtm/caffe/tree/grl{% endcapture %}
+{% capture project_moar_btns %}
+Project page|http://sites.skoltech.ru/compvision/projects/grl/
+{% endcapture %}
 {% capture project_desc %}
 Deep neural networks can be adapted for the new domains by incorporating 
-unlabeled data into the learning procedure. Very simple to imlement, yet 
-gives a remarkable performance boost. Go check out our arXiv report.
+unlabeled data into the learning procedure. Very easy to implement, yet 
+gives a state-of-the-art results on the 
+<a href="http://www.cs.uml.edu/~saenko/projects.html#data">Office dataset</a> 
+and several other benchmarks.
 {% endcapture %}
 {% include project.html %}
 
+### 2014
 
 {% capture project_title %}
 $ N^4 $-Fields: Neural Network Nearest Neighbor Fields for Image Transforms

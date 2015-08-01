@@ -10,6 +10,9 @@
       {% if project_arxiv.size > 0 %}
       <a class="btn btn-sm btn-success" href="{{ project_arxiv }}">arXiv</a>
       {% endif %}
+      {% if project_code.size > 0 %}
+      <a class="btn btn-sm btn-success" href="{{ project_code }}">code</a>
+      {% endif %}
       {% if project_moar_btns.size > 0 %}
         {% assign btns = project_moar_btns | strip_newlines | split: "," %}
         {% for btn in btns %}
