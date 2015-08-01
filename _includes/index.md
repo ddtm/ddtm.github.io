@@ -23,6 +23,9 @@ Here is how you would contact me:
 {% capture project_title %}
 Unsupervised Domain Adaptation by Backpropagation
 {% endcapture %}
+{% capture project_title %}
+__Yaroslav Ganin__, Victor Lempitsky
+{% endcapture %}
 
 {% capture project_img_path %}./images/deep_da/teaser.png{% endcapture %}
 {% capture project_pdf %}http://sites.skoltech.ru/compvision/projects/grl/files/paper.pdf{% endcapture %}
@@ -37,7 +40,7 @@ gives a state-of-the-art results on the
 <a href="http://www.cs.uml.edu/~saenko/projects.html#data">Office dataset</a> 
 and several other benchmarks.
 
-Accepted for __ICML'15__.
+Accepted to __ICML'15__.
 {% endcapture %}
 {% include project.html %}
 

@@ -4,6 +4,9 @@
   </a>
   <div class="media-body">
     <h4 class="media-heading">{{ project_title }}</h4>
+    {% if project_authors.size > 0 %}
+    <h4 class="media-heading"><small>{{ project_title }}</small></h4>
+    {% endif %}
     <p>
       <a class="btn btn-sm btn-success" href="{{ project_pdf }}">
       <if class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></span></a>
