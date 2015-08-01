@@ -5,8 +5,8 @@ I am a PhD candidate at [Skoltech](http://www.skoltech.ru/en), advised by
 My scientific interests span computer vision and machine learning. Nowadays
 I'm mostly working on __artificial neural networks__.
 
-~~You can find my working place at the 6th floor of the 
-[Hypercube](http://community.sk.ru/innograd/hypercube/).~~
+~~You can find my working place at the 6th floor of the~~ 
+[Hypercube](http://community.sk.ru/innograd/hypercube/).
 
 If you really want to, you can access my typed [curriculum vitae](./media/cv2.pdf), 
 although I tend to update the <a href="http://linkedin.com/in/yganin/">LinkedIn</a> 
@@ -28,7 +28,7 @@ Unsupervised Domain Adaptation by Backpropagation
 {% capture project_pdf %}http://sites.skoltech.ru/compvision/projects/grl/files/paper.pdf{% endcapture %}
 {% capture project_code %}https://github.com/ddtm/caffe/tree/grl{% endcapture %}
 {% capture project_moar_btns %}
-Project page|http://sites.skoltech.ru/compvision/projects/grl/
+project page|http://sites.skoltech.ru/compvision/projects/grl/
 {% endcapture %}
 {% capture project_desc %}
 Deep neural networks can be adapted for the new domains by incorporating 
@@ -36,6 +36,8 @@ unlabeled data into the learning procedure. Very easy to implement, yet
 gives a state-of-the-art results on the 
 <a href="http://www.cs.uml.edu/~saenko/projects.html#data">Office dataset</a> 
 and several other benchmarks.
+
+Accepted for __ICML'15__.
 {% endcapture %}
 {% include project.html %}
 
@@ -49,7 +51,7 @@ $ N^4 $-Fields: Neural Network Nearest Neighbor Fields for Image Transforms
 {% capture project_arxiv %}http://arxiv.org/abs/1406.6558{% endcapture %}
 {% capture project_pdf %}./media/n4_accv2014.pdf{% endcapture %}
 {% capture project_moar_btns %}
-Project page|http://sites.skoltech.ru/compvision/projects/n4/
+project page|http://sites.skoltech.ru/compvision/projects/n4/
 {% endcapture %}
 {% capture project_desc %}
 __N__eural __N__etworks and __N__earest __N__eighbours search (hence
@@ -97,7 +99,11 @@ Here are some older projects that I was working on during my studies at
 
 <h3 class="page-header">Teaching</h3>
 
-I was a TA for the __Systems Optimization__ class held in fall 2013.
+I was a TA for the following classes:
+
+* __Systems Optimization__ (Skoltech, fall 2013)
+* __Deep Learning__ (Yandex School of Data Analysis, spring 2015)
+* __Deep Learning__ (Skoltech, spring 2015)
 
 <h3 class="page-header">Other stuff</h3>
 
