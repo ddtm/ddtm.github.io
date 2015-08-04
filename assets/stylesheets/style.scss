@@ -23,7 +23,21 @@ div.moar-btns a {
 }
 
 body {
-    margin-top: 20px;
+    // margin-top: 20px;
+}
+
+.header {
+  margin-top: 0px;
+  // width: 100%;
+  // Set the fixed height of the footer here
+  // height: 60px;
+  // background-color: #f8f8f8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  // color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .footer {
@@ -41,4 +55,8 @@ body {
 
 .footer p {
   margin: 10px 0;
+}
+
+.avatar {
+    border-radius: 5px;
 }
