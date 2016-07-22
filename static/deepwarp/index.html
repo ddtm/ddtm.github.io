@@ -35,10 +35,20 @@
     <!-- Page Header -->
     <div class="row">
       <div class="col-lg-12">
-        <h1 class="page-header">Submission #332 Supplementary Material</h1>
+        <h1 class="page-header">DeepWarp: Photorealistic Image Resynthesis for Gaze Manipulation</h1>
+        <p class="text-center">
+          <img width="100%" src="images/pipeline.svg">
+        </p>
+        <br/>
         <p>
-          Welcome to the supplementary material for the Submission #332 <b>"DeepWarp: Photorealistic Image Resynthesis for Gaze Manipulation"</b>. We provide additional qualitative results as well as the details for the perceptual quality study.
+          <b>Links:</b> 
+          <a class="btn btn-sm btn-success" href="files/paper.pdf">pdf</a>
+        </p>
+        <h2>Abstract
+        </h2>
         <p>
+          In this work, we consider the task of generating highly-realistic images of a given face with a redirected gaze. We treat this problem as a specific instance of conditional image generation, and suggest a new deep architecture that can handle this task very well as revealed by numerical comparison with prior art and a user study. Our deep architecture performs coarse-to-fine warping with an additional intensity correction of individual pixels. All these operations are performed in a feed-forward manner, and the parameters associated with different operations are learned jointly in the end-to-end fashion. After learning, the resulting neural network can synthesize images with manipulated gaze, while the redirection angle can be selected arbitrarily from a certain range and provided as an input to the network.
+        </p>
       </div>
     </div>
     <!-- /.row -->
@@ -49,7 +59,7 @@
         <h2>Example outputs
         </h2>
         <p>
-          Below you can find looped animations (<code>.webm</code> format) produced by our unified system trained <b>simultaneously</b> for vertical and horizontal redirection. The angle amplitude is set to +-15 degrees. <b>Note</b> that all of the images below were processed in the model's native scale, i.e. eye regions were cropped and resized to <code>H x W = 41 x 51</code>. The resulting flow field has the same spatial dimensions. In order to preserve the input image resolution, we rescale the flow to the original resolution.  The training follows the procedure discussed in the paper, except that the loss was improved to handle misregistrations in the training data, which lead to a small further improvement in the visual quality.
+          Below you can find looped animations (<code>.webm</code> format) produced by our unified system trained <b>simultaneously</b> for vertical and horizontal redirection. The angle amplitude is set to +-15 degrees. <b>Note</b> that all of the images below were processed in the model's native scale, i.e. eye regions were cropped and resized to <code>H x W = 41 x 51</code>. The resulting flow field has the same spatial dimensions. In order to preserve the input image resolution, we rescale the flow to the original resolution. The training follows the procedure discussed in Section 4 (<b>Incorporating registration</b>) of the paper.
           <ul>
             <li>For vertical redirection click on <i class="fa fa-arrows-v fa-lg"></i>.</li>
             <li>For horizontal redirection click on <i class="fa fa-arrows-h fa-lg"></i>.</li>
