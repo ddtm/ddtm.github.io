@@ -37,7 +37,7 @@ that predicts a warping transformation (much like remap in OpenCV) and thus does
 suffer from problems (information loss, regression-to-mean, etc.) of conventional 
 encoder-decoder approaches.
 
-Accepted to __ECCV'15__.
+Accepted to __ECCV'16__.
 {% endcapture %}
 {% include project.html %}
 
