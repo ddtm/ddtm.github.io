@@ -5,8 +5,7 @@ I am a PhD candidate at [Skoltech](http://www.skoltech.ru/en), advised by
 My scientific interests span computer vision and machine learning. Nowadays
 I'm mostly working on __artificial neural networks__.
 
-~~You can find my working place at the 6th floor of the
-[Hypercube](http://community.sk.ru/innograd/hypercube/).~~
+My work place is locate on the 3rd floor in [TPOC-3](http://www.skoltech.ru/en/about/contacts/).
 
 If you really want to, you can access my typed [curriculum vitae](./media/cv2.pdf), 
 although I tend to update the <a href="http://linkedin.com/in/yganin/">LinkedIn</a> 
@@ -17,6 +16,30 @@ Here is how you would contact me:
 <a href="mailto:ganin@skoltech.ru"><i class="fa fa-at fa-lg"></i></a>
 
 <h3 class="page-header">Projects</h3>
+
+### 2016
+
+{% capture project_title %}
+DeepWarp: Photorealistic Image Resynthesis for Gaze Manipulation
+{% endcapture %}
+{% capture project_authors %}
+__Yaroslav Ganin__, Daniil Kononenko, Diana Sungatullina, Victor Lempitsky
+{% endcapture %}
+
+{% capture project_img_path %}./images/deepwarp/teaser.png{% endcapture %}
+{% capture project_pdf %}http://yaroslav.ganin.net/static/deepwarp/files/paper.pdf{% endcapture %}
+{% capture project_moar_btns %}
+project page|http://yaroslav.ganin.net/static/deepwarp/
+{% endcapture %}
+{% capture project_desc %}
+A deep learning system for real-time gaze redirection. We propose a novel architecture
+that predicts a warping transformation (much like remap in OpenCV) and thus does not
+suffer from problems (information loss, regression-to-mean, etc.) of conventional 
+encoder-decoder approaches.
+
+Accepted to __ECCV'15__.
+{% endcapture %}
+{% include project.html %}
 
 ### 2015
 
@@ -36,7 +59,7 @@ project page|http://sites.skoltech.ru/compvision/projects/grl/
 {% capture project_desc %}
 Deep neural networks can be adapted for the new domains by incorporating 
 unlabeled data into the learning procedure. Very easy to implement, yet 
-gives a state-of-the-art results on the 
+gives state-of-the-art results on the 
 <a href="http://www.cs.uml.edu/~saenko/projects.html#data">Office dataset</a> 
 and several other benchmarks.
 
@@ -137,7 +160,11 @@ I was a TA for the following classes:
 * __Deep Learning__ (Yandex School of Data Analysis, spring 2015)
 * __Deep Learning__ (Skoltech, spring 2015)
 
+<h3 class="page-header">Internships</h3>
+
+* March 2016 - July 2016: __MILA__ Montr&eacute;al, host: Yoshua Bengio
+* June 2015 - October 2015: __Google__ Z&uuml;rich, Machine Intelligence team, host: Ioannis Tsochantaridis.
+
 <h3 class="page-header">Other stuff</h3>
 
-Currently, I am doing my internship at __Google__ (Machine Intelligence team), 
-in Z&uuml;rich, for a period of 4 months, starting June 1st.
+Under construction.
