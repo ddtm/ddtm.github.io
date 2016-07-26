@@ -5,7 +5,7 @@ I am a PhD candidate at [Skoltech](http://www.skoltech.ru/en), advised by
 My scientific interests span computer vision and machine learning. Nowadays
 I'm mostly working on __artificial neural networks__.
 
-My work place is locate on the 3rd floor in [TPOC-3](http://www.skoltech.ru/en/about/contacts/).
+My work place is located on the 3rd floor in [TPOC-3](http://www.skoltech.ru/en/about/contacts/).
 
 If you really want to, you can access my typed [curriculum vitae](./media/cv2.pdf), 
 although I tend to update the <a href="http://linkedin.com/in/yganin/">LinkedIn</a> 
