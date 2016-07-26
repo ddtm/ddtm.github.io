@@ -27,7 +27,7 @@ __Yaroslav Ganin__, Daniil Kononenko, Diana Sungatullina, Victor Lempitsky
 {% endcapture %}
 
 {% capture project_img_path %}./images/deepwarp/teaser.png{% endcapture %}
-{% capture project_pdf %}http://yaroslav.ganin.net/static/deepwarp/files/paper.pdf{% endcapture %}
+{% capture project_pdf %}static/deepwarp/files/deepwarp_eccv2016.pdf{% endcapture %}
 {% capture project_moar_btns %}
 project page|http://yaroslav.ganin.net/static/deepwarp/
 {% endcapture %}
@@ -101,7 +101,7 @@ __Yaroslav Ganin__, Victor Lempitsky
 
 {% capture project_img_path %}./images/n4/teaser.png{% endcapture %}
 {% capture project_arxiv %}http://arxiv.org/abs/1406.6558{% endcapture %}
-{% capture project_pdf %}./media/n4_accv2014.pdf{% endcapture %}
+{% capture project_pdf %}media/n4_accv2014.pdf{% endcapture %}
 {% capture project_moar_btns %}
 project page|http://sites.skoltech.ru/compvision/projects/n4/
 {% endcapture %}
