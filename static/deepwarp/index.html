@@ -19,6 +19,17 @@
 <!-- Custom CSS -->
 <link href="css/3-col-portfolio.css" rel="stylesheet">
 
+<style type="text/css">
+  .headerbox {
+    position: relative;
+  }
+  .topcorner {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+</style>
+
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -35,7 +46,10 @@
     <!-- Page Header -->
     <div class="row">
       <div class="col-lg-12">
-        <h1 class="page-header" align="center">DeepWarp: Photorealistic Image<br/>Resynthesis for Gaze Manipulation <small>(in ECCV'16)</small></h1>
+        <div class="headerbox">
+          <h1 class="page-header" align="center">DeepWarp: Photorealistic Image<br/>Resynthesis for Gaze Manipulation <small>(in ECCV'16)</small><br/><small>Yaroslav Ganin, Daniil Kononenko, Diana Sungatullina, Victor Lempitsky</small></h1>
+          <div class="topcorner"><img src="images/sk.png" width="150px"></div></div>
+        </div>
         <p class="text-center">
           <img width="100%" src="images/pipeline.svg">
         </p>
