@@ -27,7 +27,7 @@ __Yaroslav Ganin__, Daniil Kononenko, Diana Sungatullina, Victor Lempitsky
 {% endcapture %}
 
 {% capture project_img_path %}./images/deepwarp/teaser.png{% endcapture %}
-{% capture project_pdf %}static/deepwarp/files/deepwarp_eccv2016.pdf{% endcapture %}
+{% capture project_pdf %}http://sites.skoltech.ru/compvision/projects/deepwarp//files/deepwarp_eccv2016.pdf{% endcapture %}
 {% capture project_moar_btns %}
 project page|http://sites.skoltech.ru/compvision/projects/deepwarp/
 {% endcapture %}
