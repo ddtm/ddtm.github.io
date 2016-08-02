@@ -29,7 +29,7 @@ __Yaroslav Ganin__, Daniil Kononenko, Diana Sungatullina, Victor Lempitsky
 {% capture project_img_path %}./images/deepwarp/teaser.png{% endcapture %}
 {% capture project_pdf %}static/deepwarp/files/deepwarp_eccv2016.pdf{% endcapture %}
 {% capture project_moar_btns %}
-project page|static/deepwarp/
+project page|http://sites.skoltech.ru/compvision/projects/deepwarp/
 {% endcapture %}
 {% capture project_desc %}
 A deep learning system for real-time gaze redirection. We propose a novel architecture
