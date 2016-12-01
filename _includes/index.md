@@ -63,6 +63,8 @@ gives state-of-the-art results on the
 <a href="http://www.cs.uml.edu/~saenko/projects.html#data">Office dataset</a> 
 and several other benchmarks.
 
+Links to the datasets: [MNIST-M](http://bit.ly/2fNqL6N), [SynNumbers](http://bit.ly/2gABD9s).
+
 Accepted to __ICML'15__.
 {% endcapture %}
 {% include project.html %}
