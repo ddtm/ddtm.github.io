@@ -65,7 +65,7 @@ gives state-of-the-art results on the
 and several other benchmarks.
 
 Links to the datasets: [MNIST-M](http://bit.ly/2fNqL6N), [SynNumbers](http://bit.ly/2gABD9s).
-I'm also providing an [unpacked version of MNIST-M](http://bit.ly/2nOzc5B) (courtesy of Konstantinos Bousmalis)
+I'm also providing an [unpacked version of MNIST-M](http://bit.ly/2nOzc5B) (courtesy of Konstantinos Bousmalis).
 
 Accepted to __ICML'15__.
 {% endcapture %}
