@@ -1,11 +1,9 @@
 <h3 class="page-header">About</h3>
 
-I am a PhD candidate at [Skoltech](http://www.skoltech.ru/en), advised by 
-[Victor Lempitsky](http://sites.skoltech.ru/compvision/members/vilem/).
+I am a PhD candidate at [MILA](https://mila.umontreal.ca/) advised by [Yoshua Bengio](https://mila.umontreal.ca/en/person/bengio-yoshua/)
+and co-advised by [Victor Lempitsky](http://sites.skoltech.ru/compvision/members/vilem/) of Skoltech.
 My scientific interests span computer vision and machine learning. Nowadays
 I'm mostly working on __artificial neural networks__.
-
-My work place is located on the 3rd floor in [TPOC-3](http://www.skoltech.ru/en/about/contacts/).
 
 If you really want to, you can access my typed [curriculum vitae](./media/cv2.pdf), 
 although I tend to update the <a href="http://linkedin.com/in/yganin/">LinkedIn</a> 
@@ -13,7 +11,7 @@ although I tend to update the <a href="http://linkedin.com/in/yganin/">LinkedIn<
 profile more frequently. 
 
 Here is how you would contact me:
-<a href="mailto:ganin@skoltech.ru"><i class="fa fa-at fa-lg"></i></a>
+<a href="mailto:yaroslav.ganin@gmail.com"><i class="fa fa-at fa-lg"></i></a>
 
 <h3 class="page-header">Projects</h3>
 
@@ -30,6 +28,9 @@ __Yaroslav Ganin__, Daniil Kononenko, Diana Sungatullina, Victor Lempitsky
 {% capture project_pdf %}http://sites.skoltech.ru/compvision/projects/deepwarp/files/deepwarp_eccv2016.pdf{% endcapture %}
 {% capture project_moar_btns %}
 project page|http://sites.skoltech.ru/compvision/projects/deepwarp/
+{% endcapture %}
+{% capture project_moar_btns %}
+online demo|http://bit.ly/2mnXOoA
 {% endcapture %}
 {% capture project_desc %}
 A deep learning system for real-time gaze redirection. We propose a novel architecture
@@ -64,6 +65,7 @@ gives state-of-the-art results on the
 and several other benchmarks.
 
 Links to the datasets: [MNIST-M](http://bit.ly/2fNqL6N), [SynNumbers](http://bit.ly/2gABD9s).
+I'm also providing an [unpacked version of MNIST-M](http://bit.ly/2nOzc5B) (courtesy of Konstantinos Bousmalis)
 
 Accepted to __ICML'15__.
 {% endcapture %}
